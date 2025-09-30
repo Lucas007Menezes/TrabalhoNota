@@ -1,0 +1,25 @@
+/* src/Componentes/Card.module.css */
+.card {
+    background-color: var(--cor-fundo-secundario);
+    border: 1px solid var(--cor-borda);
+    border-radius: 12px;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 400px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .card:hover {
+    border-color: var(--cor-destaque);
+  }
+  
+  .titulo {
+    color: var(--cor-destaque);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .conteudo {
+    color: var(--cor-texto-secundario);
+  }
+  

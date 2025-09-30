@@ -1,0 +1,27 @@
+.button {
+    background: transparent;
+    border: 1px solid var(--cor-destaque);
+    color: var(--cor-destaque);
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover {
+    color: var(--cor-fundo);
+    background-color: var(--cor-destaque);
+    box-shadow: 0 0 20px var(--cor-destaque);
+  }
+  
+  .button:disabled {
+    border-color: var(--cor-texto-secundario);
+    color: var(--cor-texto-secundario);
+    cursor: not-allowed;
+    background: transparent;
+    box-shadow: none;
+  }

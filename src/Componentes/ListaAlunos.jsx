@@ -1,21 +1,22 @@
 
+// src/Componentes/ListaAlunos.jsx
+import styles from './ListaAlunos.module.css';
+
 function ListaAlunos() {
-  const alunos = ["Ana"
-  ,
-  "Lucas"
-  ,
-  "Carlos"
-  ,
-  "Jonas"]
+  const alunos = ["Ana", "Lucas", "Carlos", "Jonas"];
+
   return (
-  <div>
-  <h2>Lista de Alunos</h2>
-  <ul>
-  {alunos.map((aluno, index) => (
-  <li key={index}>{aluno01}</li>
-  ))}
-  </ul>
-  </div>
-  )
-  }
-  export default ListaAluno
+    <div className={styles.container}>
+      <h3 className={styles.titulo}>Lista de Alunos</h3>
+      <div>
+        {alunos.map((aluno, index) => (
+          <div key={index} className={styles.item}>
+            {aluno}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+export default ListaAlunos;

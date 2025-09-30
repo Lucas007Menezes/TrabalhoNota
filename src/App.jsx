@@ -1,10 +1,13 @@
 
-import Alerta from './Componentes/Alerta'
-import Botao from './Componentes/Button'
-import ListaAlunos from './Componentes/ListaAlunos'
-import Header from './Componentes/Header'; // Importa o cabeçalho
-import Footer from './Componentes/Footer'; // Importa o rodapé
+import Alerta from './Componentes/Alerta';
+import ListaAlunos from './Componentes/ListaAlunos';
+import Header from './Componentes/Header'; 
+import Footer from './Componentes/Footer'; 
+import Button from './Componentes/Button';
+import Acoes from './Componentes/Acoes';
+import Card from './Componentes/Card';
 
+const handleButtonClick = () => {alert("O botão futurista foi clicado!");};
 
 function App() {
   return (
@@ -24,14 +27,17 @@ function App() {
   <Footer />
   </div>
 
-  <div>
-<ListaAlunos />
-<H2>Ana, Lucas, Carlos, Jonas</H2>
+<div>
+  <ListaAlunos /> 
 </div>
 
   <div>
-  <h1>Eventos no React</h1>
-  <Botao />
+  <h1>Play React</h1>
+  </div>
+
+  <div>
+  <Button texto= "Clique aqui"
+  onClick={handleButtonClick}/>
   </div>
   
 
@@ -40,6 +46,21 @@ function App() {
  <Alerta tipo="erro" />
  <Alerta tipo="aviso" />
  </div>
+
+<div>
+<Acoes texto="Salvar" />
+<Acoes texto="Cancelar" />
+<Acoes texto="Enviar" />
+
+</div>
+
+
+<div>
+<h2></h2>
+<Card titulo="React" conteudo="Biblioteca para construir interfaces." />
+<Card titulo="Vite" conteudo="Ferramenta rápida de build e dev server." />
+</div>
+
 
 
 

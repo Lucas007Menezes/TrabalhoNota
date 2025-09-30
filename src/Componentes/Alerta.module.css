@@ -1,0 +1,15 @@
+/* src/Componentes/Alerta.module.css */
+.alerta {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    margin: 8px 0;
+    border-radius: 8px;
+    font-weight: 500;
+    border-left: 5px solid;
+    background-color: var(--cor-fundo-secundario);
+  }
+  
+  .sucesso { border-color: var(--cor-sucesso); color: var(--cor-sucesso); }
+  .erro { border-color: var(--cor-erro); color: var(--cor-erro); }
+  .aviso { border-color: var(--cor-aviso); color: var(--cor-aviso); }

@@ -1,8 +1,12 @@
+import styles from './Button.module.css';
 
-function Button() {
-    function mostrarMensagem() {
-    alert("Você clicou no Button!")
-    }
-    return <button onClick={mostrarMensagem}>Clique aqui</button>
-    }
-    export default Button 
+function Button({ texto, ...props }) {
+  return (
+    <button className={styles.button} {...props}>
+      {texto}
+    </button>
+  );
+}
+
+export default Button;
+  
