@@ -1,16 +1,42 @@
-# React + Vite
+# Projeto com React - ADS UniNassau
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto desenvolvido para a disciplina de **Desenvolvimento Front-End** do curso de Análise e Desenvolvimento de Sistemas. O objetivo é construir uma aplicação web simples.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Visualização do Projeto
 
-## React Compiler
+![alt text](image.png)
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![Prévia da Aplicação](https://via.placeholder.com/800x450.png?text=Insira+aqui+o+print+da+sua+aplicação )
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 👤 Integrante
+
+- **Nome:** Lucas Menezes
+- **Matrícula:** 01852632
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+Este projeto foi construído com as seguintes tecnologias:
+
+- **[React](https://react.dev/ ):** 
+- **[Vite](https://vitejs.dev/ ):** 
+- **[CSS Modules](https://github.com/css-modules/css-modules ):** 
+- **[JavaScript (ES6+)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript ):** 
+- **[Git](https://git-scm.com/ ):** .
+- **[GitHub](https://github.com/ ):** 
+---
+
+## 📋 Funcionalidades Implementadas
+
+-  Crojeto criada com Vite.
+-  Aplicação (Header, Footer, ListaAlunos, Card, Button, Alerta).
+-  Lista de alunos.
+-  Exibição de alertas de status (sucesso, erro, aviso) com mensagens padrão e personalizáveis.
+-  Botões de ação reutilizáveis com eventos de clique.
+-  Estilização moderna e responsiva com CSS Modules, variáveis CSS e conceitos como Glassmorphism.
+-  Versionamento de código com commits organizados.

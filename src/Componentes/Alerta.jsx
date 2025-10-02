@@ -7,7 +7,7 @@ function Alerta({ tipo }) {
     return <p style={{ color: "red"
     }}>Ocorreu um erro.</p>
     } else {
-    return <p>Mensagem genérica.</p>
+    return <p></p>
     }
     }
     export default Alerta

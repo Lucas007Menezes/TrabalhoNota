@@ -1,5 +1,5 @@
 
-// src/Componentes/ListaAlunos.jsx
+
 import styles from './ListaAlunos.module.css';
 
 function ListaAlunos() {

@@ -1,4 +1,4 @@
-// src/Componentes/Card.jsx
+
 import styles from './Card.module.css';
 
 function Card({ titulo, conteudo }) {
