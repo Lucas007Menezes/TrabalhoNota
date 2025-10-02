@@ -27,8 +27,9 @@ Este projeto foi construído com as seguintes tecnologias:
 - **[Vite](https://vitejs.dev/ ):** 
 - **[CSS Modules](https://github.com/css-modules/css-modules ):** 
 - **[JavaScript (ES6+)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript ):** 
-- **[Git](https://git-scm.com/ ):** .
-- **[GitHub](https://github.com/ ):** 
+- **[Git](https://git-scm.com/ ):** 
+- **[GitHub](https://github.com/ ):**
+- **[Vscode](https://code.visualstudio.com/):**
 ---
 
 ## 📋 Funcionalidades Implementadas
@@ -38,5 +39,5 @@ Este projeto foi construído com as seguintes tecnologias:
 -  Lista de alunos.
 -  Exibição de alertas de status (sucesso, erro, aviso) com mensagens padrão e personalizáveis.
 -  Botões de ação reutilizáveis com eventos de clique.
--  Estilização moderna e responsiva com CSS Modules, variáveis CSS e conceitos como Glassmorphism.
--  Versionamento de código com commits organizados.
+-  Estilização CSS Modules, variáveis CSS.
+-  Versionamento de código com commits .
